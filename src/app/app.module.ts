@@ -13,9 +13,9 @@ import {VehiculoModule } from './vehiculo/vehiculo.module';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
-    VehiculoModule,
-    HttpClientModule
+    VehiculoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
