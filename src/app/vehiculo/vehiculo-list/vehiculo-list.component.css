@@ -1,0 +1,23 @@
+  .css-table {
+  display: table;
+  }
+
+  .css-table-header {
+  display: table-header-group;
+  font-weight: bold;
+  background-color: rgb(191, 191, 191);
+  }
+
+  .css-table-body {
+  display: table-row-group;
+  }
+
+  .css-table-row {
+  display: table-row;
+  }
+
+  .desc {
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+  }
