@@ -9,7 +9,7 @@ import { Vehiculo } from './vehiculo';
   providedIn: 'root'
 })
 export class VehiculoService {
-  private apiUrl: string = environment.baseUrl + 'books';
+  private apiUrl: string = environment.baseUrl;
 
 constructor(private http: HttpClient) { }
 
