@@ -50,4 +50,12 @@ describe('VehiculoListComponent', () => {
   it('should have 4 <css-table-row> elements include header', () => {
     expect(debug.queryAll(By.css('.css-table-row'))).toHaveSize(4)
   });
+
+  it('should have beetween 1 and 3 desc tag for max 3 vehicule type', () => {
+    expect(debug.queryAll(By.css('desc'))).toBeLessThanOrEqual(3)
+  });
+
+  it('should have 1 <css-table-body> elements in table', () => {
+    expect(debug.queryAll(By.css('.css-table-body'))).toHaveSize(1)
+  });
 });
