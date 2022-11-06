@@ -16,3 +16,9 @@
         </tr>
     </tbody>
   </table>
+
+  <div *ngFor="let marca of marcas" class="desc">
+    <div *ngIf="marca.contador!=0;">
+      Total {{ marca.itemId }}: {{ marca.contador }}
+    </div>
+  </div>
